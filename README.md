@@ -52,7 +52,7 @@
    
 #   If already have a Certificate
    
-   Uplaod to directory /etc/apache2/ssl
+   Uplaod certificate to /etc/apache2/ssl directory.
   
 4.Configure Apache to use SSL
 
@@ -90,7 +90,7 @@ Change only the following items in the file:
 
     ServerAdmin webmaster@localhost
     ServerAlias yourdomain.com
-    DocumentRoot /var/www/yourdomain/
+    DocumentRoot /var/www/html/
     SSLEngine on
     SSLCertificateFile /etc/apache2/ssl/your_certificate.crt
     SSLCertificateKeyFile /etc/apache2/ssl/your_private.key
@@ -111,7 +111,8 @@ Press Control + X and then select ‘Y’ to save your changes.
 
 6. redirect http to https redirect 
     
-        sudo nano /var/www/html/ .htaccess
+        sudo cd /var/www/html/
+        sudo nano .htaccess
   
 write .htaccess
 
