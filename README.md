@@ -131,6 +131,6 @@ Now restart the server
 check your site...
 
 
-ref: https://financetrainingcourse.com/education/2016/06/ssl-certificate-install-aws-guide-apache-ubuntu-14-04/
+
 
 
