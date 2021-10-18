@@ -1,4 +1,4 @@
-# SSL-install-on-apache-server-in-AWS
+# SSL install on apache server in AWS
 --------------------------------------
 
 # Install SSL on AWS Apache server Ubuntu 14.04.6 LTS Server
